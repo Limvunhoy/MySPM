@@ -17,7 +17,7 @@ public final class WelcomeViewController: UIViewController {
         return lbl
     }()
     
-    override func loadView() {
+    public override func loadView() {
         super.loadView()
         
         view.addSubview(lbWelcome)
